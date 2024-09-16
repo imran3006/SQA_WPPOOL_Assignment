@@ -1,6 +1,6 @@
 
 
-# Aerosphere Automation
+#  Automation
 
 ## We can automate the following using Playwright: <br>
 * UI Automation - Functional Test Automation <br>
@@ -39,10 +39,10 @@ The following software are required:
 
 ### Installation:
 1. Clone the repo using below URL<br>
-  https://github.com/acharjeeauntor/TimeSheet-Playwright-Project.git<br>
+  https://github.com/<br>
 2. Navigate to folder and install npm packages using:<br>
   npm install<br>
-3. Collect the .env file from the Project Author and place in the root directory of the project<br>
+3. Collect the .env file from the Project Author and place in the root directory of the project <br>
 ----------------------------------------------------------
 
 ### Usage:

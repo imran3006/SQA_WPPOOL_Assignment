@@ -5,14 +5,14 @@ class LoginPage{
 
     constructor(page){
         this.page = page
-        this.emailInput = page.locator('input[id="user_login"]')
+        this.userNameInput = page.locator('input[id="user_login"]')
         this.passInput = page.locator('input[id="user_pass"]')
         this.loginButton = page.locator('input[type="submit"]')
         
     }
 
     async login(email,pass){
-        await this.emailInput.fill(email)
+        await this.userNameInput.fill(email)
         await this.passInput.fill(pass)
         // await this.page.waitForTimeout()
         await this.loginButton.click()

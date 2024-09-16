@@ -13,7 +13,7 @@
     "allureGenerate": "npx allure generate ./allure-results --clean && npx allure open ./allure-report"
   },
   "keywords": [],
-  "author": "Auntor Acharja",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "@faker-js/faker": "^8.4.1",

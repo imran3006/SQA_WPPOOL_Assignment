@@ -6,7 +6,7 @@ dotenv.config({
 
 const testConfig = {
     baseURL: process.env.URL,
-    userEmail: process.env.EMAIL,
+    userName: process.env.USERNAME,
     userPassword: process.env.PASSWORD,
 
 }
