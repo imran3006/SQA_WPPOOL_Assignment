@@ -1,6 +1,6 @@
 
 
-#  Automation
+#  Plugin Automation
 
 ## We can automate the following using Playwright: <br>
 * UI Automation - Functional Test Automation <br>
@@ -51,10 +51,9 @@ A. To run test on chrome project: npx playwright test --project chrome<br>
 B. To run test on firefox project: npx playwright test --project firefox<br>
 C. To run test on safari project: npx playwright test --project webkit<br>
 D. To run in debug mode with Playwright Inspector: npx playwright test --debug<br>
-E. To run tests in interactive UI mode, with a built-in watch mode (Preview): npx playwright test --ui<br>
-F. To run tests in headed browsers: npx playwright test --headed <br>
-G. To run all the tests: npx playwright test <br>
-H. To run on parallal worker: npx playwright test --workers=3<br>
+E. To run tests in headed browsers: npx playwright test --headed <br>
+F. To run all the tests: npx playwright test <br>
+
 
 2. To run the test with project defined script: <br>
 A. To run test on chrome project: npm run testChrome<br>
@@ -66,20 +65,4 @@ C. To run test on safari project: npm run testSafari<br>
 5. To generate & open Allure Report: npm run allureGenerate<br>
 
 ----------------------------------------------------------
-### Playwright automation features that cover in this project:
-1. Secured confidential data through the .env file<br>
-2. Test on multiple browser support<br>
-3. Parallal test execution support<br>
-4. Test on multiple environment (e.g. test, dev, stage, production) support<br>
-5. Sesssion Storage and login bypass support<br>
-6. Can perform both UI, AIP, Cross-Browser, Responsivness Testing<br>
-7. Test data management support<br>
-8. Advanced test reporting support including Screenshots, Video, Trace, Chart view for issue investigation<br>
-9. Standard test automation design pattern support (POM) <br>
-10. Both headless and headed mode support <br>
 
-----------------------------------------------------------
-## Allure Report view
-<img width="1438" alt="Screenshot 2024-08-26 at 3 16 37 PM" src="https://github.com/user-attachments/assets/f791b5be-100a-41d4-9aa5-f63080fa669a">
-<img width="1438" alt="Screenshot 2024-08-26 at 3 16 44 PM" src="https://github.com/user-attachments/assets/2054b005-91c3-41b0-964c-7fed4701bdba">
-<img width="1438" alt="Screenshot 2024-08-26 at 3 16 57 PM" src="https://github.com/user-attachments/assets/ec363c73-e73d-4615-ab70-97b09dbd928a">

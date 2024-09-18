@@ -11,8 +11,8 @@ class LoginPage{
         
     }
 
-    async login(email,pass){
-        await this.userNameInput.fill(email)
+    async login(userName,pass){
+        await this.userNameInput.fill(userName)
         await this.passInput.fill(pass)
         // await this.page.waitForTimeout()
         await this.loginButton.click()
