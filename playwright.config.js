@@ -1,7 +1,7 @@
 // @ts-check
 import { defineConfig, devices } from '@playwright/test'
 import path from 'path';
-import testConfig from './testConfig';
+import testConfig from './testConfig'
 
 const STORAGE_STATE = path.join(__dirname, 'authentication/.auth/admin.json');
 

@@ -34,8 +34,7 @@ class DashboardPage{
         this.pageTransitionEnableToggleLocator = page.locator('div.bg-slate-200')
         this.flipAnimationSelectLocator = page.locator('div.flex span:has-text("Flip")')
         this.siteLinkLocator = page.locator('a[href="http://localhost/wordpress-6.6.2/wordpress/"]').nth(0)
-        this.siteDarkModeBtnLocator = page.locator('div.wp-dark-mode-switch-styled')
-        
+        this.siteDarkModeBtnLocator = page.locator('div.wp-dark-mode-switch-styled') 
         this.skipDeactiveLocator = page.locator('a[href*="plugins.php?action=deactivate"][class="dont-bother-me wd-dr-button-secondary"]')
         this.deleteTheme = page.locator('#delete-wp-dark-mode')
         this.deleteSuccessMessageLocator = page.locator('#wp-dark-mode-deleted')

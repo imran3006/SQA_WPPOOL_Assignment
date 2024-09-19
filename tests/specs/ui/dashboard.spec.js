@@ -137,7 +137,6 @@ test.describe('WP dark mode plugin automation',async()=>{
         // await dashboardPage.deleteTheme.click()
         // await dashboardPage.deletefilesLocator.click()
 
-
     }
 
 
