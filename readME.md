@@ -2,11 +2,7 @@
 
 #  Plugin Automation
 
-## We can automate the following using Playwright: <br>
-* UI Automation - Functional Test Automation <br>
-* API Automation <br>
-* Cross-Browser Testing Automation <br>
-* Responsiveness Testing Automation <br>
+
 -----------------------------------------------------------
 ### Technology: <br>
 * Automation Framework: Playwright <br>
@@ -39,7 +35,7 @@ The following software are required:
 
 ### Installation:
 1. Clone the repo using below URL<br>
-  https://github.com/<br>
+  [https://github.com/imran3006/SQA_WPPOOL_Assignment.git]<br>
 2. Navigate to folder and install npm packages using:<br>
   npm install<br>
 3. Collect the .env file from the Project Author and place in the root directory of the project <br>
@@ -65,4 +61,28 @@ C. To run test on safari project: npm run testSafari<br>
 5. To generate & open Allure Report: npm run allureGenerate<br>
 
 ----------------------------------------------------------
+
+
+ ### Allure generated report summary
+ 
+      
+   ![1](https://github.com/user-attachments/assets/a9be788e-cf01-4602-9906-725fec9375c7)
+
+
+----------------------------------------------------------
+
+ ### Video of the full Automation script
+
+ 
+
+    
+   
+
+https://github.com/user-attachments/assets/0e681c14-8c61-4ead-b31d-4e26e5bce663
+
+
+
+    
+
+
 
