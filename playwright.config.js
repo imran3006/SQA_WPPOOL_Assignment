@@ -13,7 +13,7 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   reporter: [['html',{open:'never'}], ["allure-playwright"]],
   use: {
-    headless: false,
+    headless: true,
     timeout: 60000
   },
   /* Configure projects for major browsers */

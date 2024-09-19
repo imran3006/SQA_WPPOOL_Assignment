@@ -1,8 +1,8 @@
 import {test,expect} from "@playwright/test"
-import LoginPage from "../tests/pageObjects/loginPage";
-import { STORAGE_STATE } from "../playwright.config";
-import testConfig from "../testConfig";
-import DashboardPage from "../tests/pageObjects/dashboardPage";
+import LoginPage from "../tests/pageObjects/loginPage"
+import { STORAGE_STATE } from "../playwright.config"
+import testConfig from "../testConfig"
+import DashboardPage from "../tests/pageObjects/dashboardPage"
 
 
 
