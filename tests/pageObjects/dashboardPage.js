@@ -42,10 +42,7 @@ class DashboardPage{
         this.deletefilesLocator = page.locator('input#submit[type="submit"][value="Yes, delete these files"]')
         this.darkThemeEnableAdminDashboardLocator = page.locator('span.wp-dark-mode-ignore', { hasText: 'Dark' })
         this.lightThemeEnableAdminDashboardLocator = page.locator('span.wp-dark-mode-ignore', { hasText: 'Light' })
-
-
-         
-        // a[href="http://localhost/wordpress-6.6.2/wordpress/wp-admin/update.php?action=install-plugin&plugin=wp-dark-mode&_wpnonce=cccc7ab922"]     
+        
     }
 
     async searchInstalledPlugin(plugin){
