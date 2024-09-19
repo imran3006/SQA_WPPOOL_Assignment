@@ -23,7 +23,7 @@ class DashboardPage{
         this.adminDashboardLocator = page.locator('a[href="index.php"]').nth(0)  
         this.wpCustomizationDropdownLocator = page.locator('div.wp-dark-mode-admin-sidebar-nav-container h4:has-text("Customization")')
         this.switchSettingsLinkLocator = page.locator('a[href="#/switch"]')
-        this.floatingSwitchEnableToggleLocator= page.locator('label.flex.sm\\:items-center div.relative.w-10.h-full')
+        this.floatingSwitchEnableToggleLocator= page.locator('label.flex.sm\\:items-center div.relative.w-10.h-full').nth(0)
         this.floatingSwitchLocator = page.locator('div[tabindex="0"] div.wp-dark-mode-switch-1')
         this.floatingSwitchSize = page.locator('input[type="number"][placeholder="0"]')
         this.floatingSwitchPosition = page.locator('.bg-gray-100 >> text=Left')
@@ -41,7 +41,7 @@ class DashboardPage{
         this.deleteSuccessMessageLocator = page.locator('#wp-dark-mode-deleted')
         this.deletefilesLocator = page.locator('input#submit[type="submit"][value="Yes, delete these files"]')
         this.darkThemeEnableAdminDashboardLocator = page.locator('span.wp-dark-mode-ignore', { hasText: 'Dark' })
-        
+        this.lightThemeEnableAdminDashboardLocator = page.locator('span.wp-dark-mode-ignore', { hasText: 'Light' })
 
 
          

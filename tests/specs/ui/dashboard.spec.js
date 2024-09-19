@@ -72,6 +72,7 @@ test.describe('WP dark mode plugin automation',async()=>{
         await dashboardPage.adminDashboardLocator.click()
         await dashboardPage.darkThemeEnableAdminDashboardLocator.click()
         await expect(page.locator('div.switch.wp-dark-mode-ignore.active')).toBeVisible()
+        await dashboardPage.lightThemeEnableAdminDashboardLocator.click()
 
       /*........Navigate to the WP Dark Mode.........*/   
         await dashboardPage.wpDarkModeLinkLocator.click()
